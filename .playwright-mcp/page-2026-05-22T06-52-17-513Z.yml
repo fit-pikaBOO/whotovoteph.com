@@ -1,0 +1,117 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e123] [cursor=pointer]:
+    - img [ref=e124]
+  - alert [ref=e127]
+  - generic [ref=e238]:
+    - banner [ref=e239]:
+      - generic [ref=e240]:
+        - link "WhoToVotePH" [ref=e241] [cursor=pointer]:
+          - /url: /fil
+          - generic [ref=e242]: WhoToVotePH
+        - navigation [ref=e243]:
+          - link "Mga Opisyal" [ref=e244] [cursor=pointer]:
+            - /url: /fil/officials
+          - link "Gabay sa Critical Thinking" [ref=e245] [cursor=pointer]:
+            - /url: /fil/guide
+          - link "Tungkol" [ref=e246] [cursor=pointer]:
+            - /url: /fil/about
+        - generic [ref=e247]:
+          - button "EN" [ref=e248]
+          - generic [ref=e249]:
+            - link "Mag-log In" [ref=e250] [cursor=pointer]:
+              - /url: /fil/auth/login
+            - link "Mag-sign Up" [ref=e251] [cursor=pointer]:
+              - /url: /fil/auth/register
+    - main [ref=e252]:
+      - generic [ref=e253]:
+        - link "← Mga Pambansang Opisyal" [ref=e254] [cursor=pointer]:
+          - /url: /fil/officials
+        - generic [ref=e255]:
+          - generic [ref=e257]: FM
+          - generic [ref=e258]:
+            - heading "Ferdinand Marcos Jr." [level=1] [ref=e259]
+            - generic [ref=e260]:
+              - generic [ref=e261]: Pangulo
+              - generic [ref=e262]: Partido Federal ng Pilipinas
+            - paragraph [ref=e263]: "Term: 2022-06-30 — 2028-06-30"
+            - paragraph [ref=e264]: Si Ferdinand 'Bongbong' Marcos Jr. ang ika-17 Pangulo ng Pilipinas, naglilingkod mula Hunyo 30, 2022. Nanalo siya ng 31.6 milyong boto. Anak siya ng dating Pangulong Ferdinand Marcos Sr. Ang kanyang administrasyon ay nakatuon sa pagpapaunlad ng imprastraktura, pagbangon ng ekonomiya, at pagpapalakas ng mga internasyonal na alyansa.
+        - generic [ref=e265]:
+          - tablist [ref=e266]:
+            - tab "Mga Tagumpay (5)" [selected] [ref=e267]
+            - tab "Mga Kontrobersya (5)" [ref=e268]
+          - tabpanel "Mga Tagumpay (5)" [ref=e269]:
+            - generic [ref=e270]:
+              - generic [ref=e272]:
+                - generic [ref=e273]:
+                  - heading "Build Better More Infrastructure Program" [level=3] [ref=e274]
+                  - generic [ref=e275]: Beripikado
+                - paragraph [ref=e276]: Ipinagpatuloy at pinalawak ang infrastructure development program na may target na 194 pangunahing proyekto na nagkakahalaga ng PHP 9.6 trilyon, nakatuon sa transportasyon, tubig, enerhiya, at digital infrastructure.
+                - generic [ref=e277]:
+                  - generic [ref=e278]: Ene 1, 2023
+                  - 'link "Pinagmulan: NEDA" [ref=e279] [cursor=pointer]':
+                    - /url: https://www.neda.gov.ph/infrastructure-flagship-projects/
+              - generic [ref=e281]:
+                - generic [ref=e282]:
+                  - heading "New Agrarian Emancipation Act (RA 11953)" [level=3] [ref=e283]
+                  - generic [ref=e284]: Beripikado
+                - paragraph [ref=e285]: Nilagdaan ang New Agrarian Emancipation Act, na nagpapatawad ng higit PHP 57.56 bilyon na utang sa agrarian reform ng 610,054 farmer-beneficiaries.
+                - generic [ref=e286]:
+                  - generic [ref=e287]: Hul 7, 2023
+                  - 'link "Pinagmulan: Official Gazette" [ref=e288] [cursor=pointer]':
+                    - /url: https://www.officialgazette.gov.ph/2023/07/07/republic-act-no-11953/
+              - generic [ref=e290]:
+                - generic [ref=e291]:
+                  - heading "Matatag na Paninindigan sa West Philippine Sea" [level=3] [ref=e292]
+                  - generic [ref=e293]: Beripikado
+                - paragraph [ref=e294]: Muling ipinagtanggol ang soberanya ng Pilipinas sa West Philippine Sea, pinatibay ang alyansa sa US, at dinagdagan ang transparency ng Chinese aggression sa pamamagitan ng public documentation ng mga insidente.
+                - generic [ref=e295]:
+                  - generic [ref=e296]: Hun 1, 2023
+                  - 'link "Pinagmulan: Rappler" [ref=e297] [cursor=pointer]':
+                    - /url: https://www.rappler.com/nation/marcos-west-philippine-sea-policy/
+              - generic [ref=e299]:
+                - generic [ref=e300]:
+                  - heading "Maharlika Investment Fund (RA 11954)" [level=3] [ref=e301]
+                  - generic [ref=e302]: Beripikado
+                - paragraph [ref=e303]: Itinatag ang Maharlika Investment Fund, isang sovereign wealth fund na may kapital na PHP 125 bilyon, na naglalayong mag-invest sa infrastructure, technology, at economic development.
+                - generic [ref=e304]:
+                  - generic [ref=e305]: Hul 18, 2023
+                  - 'link "Pinagmulan: Official Gazette" [ref=e306] [cursor=pointer]':
+                    - /url: https://www.officialgazette.gov.ph/2023/07/18/republic-act-no-11954/
+              - generic [ref=e308]:
+                - generic [ref=e309]:
+                  - heading "POGO Ban" [level=3] [ref=e310]
+                  - generic [ref=e311]: Beripikado
+                - paragraph [ref=e312]: Nag-utos ng kumpletong pagbabawal ng Philippine Offshore Gaming Operations (POGOs) bago matapos ang 2024, tinutugunan ang mga alalahanin tungkol sa kriminal na aktibidad, human trafficking, at social disruption na kaugnay ng POGO operations.
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Hul 22, 2024
+                  - 'link "Pinagmulan: PhilStar" [ref=e315] [cursor=pointer]':
+                    - /url: https://www.philstar.com/headlines/2024/07/22/2371234/marcos-orders-total-pogo-ban
+    - contentinfo [ref=e316]:
+      - generic [ref=e317]:
+        - generic [ref=e318]:
+          - generic [ref=e319]:
+            - generic [ref=e320]: WhoToVotePH
+            - paragraph [ref=e321]: Binibigyang-kapangyarihan ang mga Pilipinong botante ng katotohanan.
+          - generic [ref=e322]:
+            - heading "Nabigasyon" [level=3] [ref=e323]
+            - navigation [ref=e324]:
+              - link "Mga Opisyal" [ref=e325] [cursor=pointer]:
+                - /url: /fil/officials
+              - link "Gabay sa Critical Thinking" [ref=e326] [cursor=pointer]:
+                - /url: /fil/guide
+              - link "Tungkol" [ref=e327] [cursor=pointer]:
+                - /url: /fil/about
+          - generic [ref=e328]:
+            - heading "Mga Fact-Checker" [level=3] [ref=e329]
+            - navigation [ref=e330]:
+              - link "Vera Files" [ref=e331] [cursor=pointer]:
+                - /url: https://verafiles.org
+              - link "Rappler" [ref=e332] [cursor=pointer]:
+                - /url: https://www.rappler.com
+              - link "PCIJ" [ref=e333] [cursor=pointer]:
+                - /url: https://pcij.org
+              - link "Tsek.ph" [ref=e334] [cursor=pointer]:
+                - /url: https://tsek.ph
+        - generic [ref=e335]:
+          - paragraph [ref=e336]: Ang WhoToVotePH ay isang non-partisan na platform. Hindi kami nag-eendorse ng anumang kandidato o political party.
+          - paragraph [ref=e337]: © 2026 WhoToVotePH

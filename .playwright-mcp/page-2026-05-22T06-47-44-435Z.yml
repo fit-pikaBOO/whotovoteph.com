@@ -1,0 +1,117 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "WhoToVotePH" [ref=e5] [cursor=pointer]:
+          - /url: /en
+          - generic [ref=e6]: WhoToVotePH
+        - navigation [ref=e7]:
+          - link "Officials" [ref=e8] [cursor=pointer]:
+            - /url: /en/officials
+          - link "Critical Thinking Guide" [ref=e9] [cursor=pointer]:
+            - /url: /en/guide
+          - link "About" [ref=e10] [cursor=pointer]:
+            - /url: /en/about
+        - generic [ref=e11]:
+          - button "FIL" [ref=e12]
+          - generic [ref=e13]:
+            - link "Log In" [ref=e14] [cursor=pointer]:
+              - /url: /en/auth/login
+            - link "Sign Up" [ref=e15] [cursor=pointer]:
+              - /url: /en/auth/register
+    - main [ref=e16]:
+      - generic [ref=e128]:
+        - link "← National Officials" [ref=e129] [cursor=pointer]:
+          - /url: /en/officials
+        - generic [ref=e130]:
+          - generic [ref=e132]: FM
+          - generic [ref=e133]:
+            - heading "Ferdinand Marcos Jr." [level=1] [ref=e134]
+            - generic [ref=e135]:
+              - generic [ref=e136]: President
+              - generic [ref=e137]: Partido Federal ng Pilipinas
+            - paragraph [ref=e138]: "Term: 2022-06-30 — 2028-06-30"
+            - paragraph [ref=e139]: Ferdinand 'Bongbong' Marcos Jr. is the 17th President of the Philippines, serving since June 30, 2022. He won with 31.6 million votes. He is the son of former President Ferdinand Marcos Sr. His administration has focused on infrastructure development, economic recovery, and strengthening international alliances.
+        - generic [ref=e140]:
+          - tablist [ref=e141]:
+            - tab "Achievements (5)" [ref=e142]
+            - tab "Controversies (5)" [active] [selected] [ref=e143]
+          - tabpanel "Controversies (5)" [ref=e191]:
+            - generic [ref=e192]:
+              - generic [ref=e194]:
+                - generic [ref=e195]:
+                  - heading "Infrastructure Corruption Allegations" [level=3] [ref=e196]
+                  - generic [ref=e197]: Verified
+                - paragraph [ref=e198]: Multiple flood control projects under the administration faced corruption allegations, with reports of overpriced contracts and substandard materials. Several DPWH officials were suspended pending investigation.
+                - generic [ref=e199]:
+                  - generic [ref=e200]: Jan 15, 2024
+                  - 'link "Source: Philippine Daily Inquirer" [ref=e201] [cursor=pointer]':
+                    - /url: https://www.inquirer.net/dpwh-flood-control-corruption
+              - generic [ref=e203]:
+                - generic [ref=e204]:
+                  - heading "Marcos Family Estate Tax Issue" [level=3] [ref=e205]
+                  - generic [ref=e206]: Verified
+                - paragraph [ref=e207]: The Marcos family owes an estimated PHP 203 billion in estate taxes from the wealth accumulated during the Marcos Sr. regime. The BIR has been criticized for not aggressively pursuing collection.
+                - generic [ref=e208]:
+                  - generic [ref=e209]: Sep 1, 2022
+                  - 'link "Source: Vera Files" [ref=e210] [cursor=pointer]':
+                    - /url: https://verafiles.org/articles/marcos-estate-tax
+              - generic [ref=e212]:
+                - generic [ref=e213]:
+                  - heading "Historical Revisionism Concerns" [level=3] [ref=e214]
+                  - generic [ref=e215]: Verified
+                - paragraph [ref=e216]: Critics have accused the administration of historical revisionism regarding the Martial Law era under Marcos Sr., including attempts to rebrand the period and minimize human rights abuses documented by Amnesty International and the Philippine government's own Human Rights Victims Claims Board.
+                - generic [ref=e217]:
+                  - generic [ref=e218]: Sep 21, 2023
+                  - 'link "Source: Amnesty International" [ref=e219] [cursor=pointer]':
+                    - /url: https://www.amnesty.org/en/latest/news/philippines-martial-law/
+              - generic [ref=e221]:
+                - generic [ref=e222]:
+                  - heading "Confidential Funds Controversy" [level=3] [ref=e223]
+                  - generic [ref=e224]: Verified
+                - paragraph [ref=e225]: Questions arose over the use of large confidential and intelligence funds across various government agencies. The Office of the Vice President and the Department of Education were scrutinized for their use of confidential funds.
+                - generic [ref=e226]:
+                  - generic [ref=e227]: Nov 1, 2023
+                  - 'link "Source: Rappler" [ref=e228] [cursor=pointer]':
+                    - /url: https://www.rappler.com/nation/confidential-funds-controversy/
+              - generic [ref=e230]:
+                - generic [ref=e231]:
+                  - heading "Sugar Import Controversy" [level=3] [ref=e232]
+                  - generic [ref=e233]: Verified
+                - paragraph [ref=e234]: The sugar importation controversy involved unauthorized sugar imports that led to the resignation of the Sugar Regulatory Administration head. Questions about who approved the 300,000 metric tons of sugar imports remained unresolved.
+                - generic [ref=e235]:
+                  - generic [ref=e236]: Aug 15, 2022
+                  - 'link "Source: PhilStar" [ref=e237] [cursor=pointer]':
+                    - /url: https://www.philstar.com/headlines/sugar-import-controversy
+    - contentinfo [ref=e96]:
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - generic [ref=e100]: WhoToVotePH
+            - paragraph [ref=e101]: Empowering Filipino voters with facts.
+          - generic [ref=e102]:
+            - heading "Navigation" [level=3] [ref=e103]
+            - navigation [ref=e104]:
+              - link "Officials" [ref=e105] [cursor=pointer]:
+                - /url: /en/officials
+              - link "Critical Thinking Guide" [ref=e106] [cursor=pointer]:
+                - /url: /en/guide
+              - link "About" [ref=e107] [cursor=pointer]:
+                - /url: /en/about
+          - generic [ref=e108]:
+            - heading "Fact-Checkers" [level=3] [ref=e109]
+            - navigation [ref=e110]:
+              - link "Vera Files" [ref=e111] [cursor=pointer]:
+                - /url: https://verafiles.org
+              - link "Rappler" [ref=e112] [cursor=pointer]:
+                - /url: https://www.rappler.com
+              - link "PCIJ" [ref=e113] [cursor=pointer]:
+                - /url: https://pcij.org
+              - link "Tsek.ph" [ref=e114] [cursor=pointer]:
+                - /url: https://tsek.ph
+        - generic [ref=e115]:
+          - paragraph [ref=e116]: WhoToVotePH is a non-partisan platform. We do not endorse any candidate or political party.
+          - paragraph [ref=e117]: © 2026 WhoToVotePH
+  - button "Open Next.js Dev Tools" [ref=e123] [cursor=pointer]:
+    - img [ref=e124]
+  - alert [ref=e127]

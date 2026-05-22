@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import { OfficialCard } from "@/components/official-card";
 import { NewsletterForm } from "@/components/newsletter-form";
 import { officials } from "@/data/officials";
@@ -19,9 +19,9 @@ export default function HomePage() {
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             {t("hero_subtitle")}
           </p>
-          <Button size="lg" render={<Link href="/en/officials" />}>
+          <Link href="/en/officials" className={buttonVariants({ size: "lg" })}>
             {t("explore_officials")}
-          </Button>
+          </Link>
         </div>
       </section>
 

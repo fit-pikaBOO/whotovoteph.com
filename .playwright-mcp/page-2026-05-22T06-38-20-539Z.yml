@@ -1,0 +1,117 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "WhoToVotePH" [ref=e5] [cursor=pointer]:
+          - /url: /en
+          - generic [ref=e6]: WhoToVotePH
+        - navigation [ref=e7]:
+          - link "Officials" [ref=e8] [cursor=pointer]:
+            - /url: /en/officials
+          - link "Critical Thinking Guide" [ref=e9] [cursor=pointer]:
+            - /url: /en/guide
+          - link "About" [ref=e10] [cursor=pointer]:
+            - /url: /en/about
+        - generic [ref=e11]:
+          - button "FIL" [ref=e12]
+          - generic [ref=e13]:
+            - link "Log In" [ref=e14] [cursor=pointer]:
+              - /url: /en/auth/login
+            - link "Sign Up" [ref=e15] [cursor=pointer]:
+              - /url: /en/auth/register
+    - main [ref=e16]:
+      - generic [ref=e128]:
+        - link "← National Officials" [ref=e129] [cursor=pointer]:
+          - /url: /en/officials
+        - generic [ref=e130]:
+          - generic [ref=e132]: FM
+          - generic [ref=e133]:
+            - heading "Ferdinand Marcos Jr." [level=1] [ref=e134]
+            - generic [ref=e135]:
+              - generic [ref=e136]: President
+              - generic [ref=e137]: Partido Federal ng Pilipinas
+            - paragraph [ref=e138]: "Term: 2022-06-30 — 2028-06-30"
+            - paragraph [ref=e139]: Ferdinand 'Bongbong' Marcos Jr. is the 17th President of the Philippines, serving since June 30, 2022. He won with 31.6 million votes. He is the son of former President Ferdinand Marcos Sr. His administration has focused on infrastructure development, economic recovery, and strengthening international alliances.
+        - generic [ref=e140]:
+          - tablist [ref=e141]:
+            - tab "Achievements (5)" [selected] [ref=e142]
+            - tab "Controversies (5)" [ref=e143]
+          - tabpanel "Achievements (5)" [ref=e144]:
+            - generic [ref=e145]:
+              - generic [ref=e147]:
+                - generic [ref=e148]:
+                  - heading "Build Better More Infrastructure Program" [level=3] [ref=e149]
+                  - generic [ref=e150]: Verified
+                - paragraph [ref=e151]: Continued and expanded the infrastructure development program with a target of 194 flagship projects worth PHP 9.6 trillion, focusing on transportation, water, energy, and digital infrastructure.
+                - generic [ref=e152]:
+                  - generic [ref=e153]: Jan 1, 2023
+                  - 'link "Source: NEDA" [ref=e154] [cursor=pointer]':
+                    - /url: https://www.neda.gov.ph/infrastructure-flagship-projects/
+              - generic [ref=e156]:
+                - generic [ref=e157]:
+                  - heading "New Agrarian Emancipation Act (RA 11953)" [level=3] [ref=e158]
+                  - generic [ref=e159]: Verified
+                - paragraph [ref=e160]: Signed into law the New Agrarian Emancipation Act, which condones over PHP 57.56 billion in agrarian reform debts of 610,054 farmer-beneficiaries.
+                - generic [ref=e161]:
+                  - generic [ref=e162]: Jul 7, 2023
+                  - 'link "Source: Official Gazette" [ref=e163] [cursor=pointer]':
+                    - /url: https://www.officialgazette.gov.ph/2023/07/07/republic-act-no-11953/
+              - generic [ref=e165]:
+                - generic [ref=e166]:
+                  - heading "Firm Stance on West Philippine Sea" [level=3] [ref=e167]
+                  - generic [ref=e168]: Verified
+                - paragraph [ref=e169]: Reasserted Philippine sovereignty over the West Philippine Sea, strengthened alliance with the US, and increased transparency of Chinese aggression through public documentation of incidents.
+                - generic [ref=e170]:
+                  - generic [ref=e171]: Jun 1, 2023
+                  - 'link "Source: Rappler" [ref=e172] [cursor=pointer]':
+                    - /url: https://www.rappler.com/nation/marcos-west-philippine-sea-policy/
+              - generic [ref=e174]:
+                - generic [ref=e175]:
+                  - heading "Maharlika Investment Fund (RA 11954)" [level=3] [ref=e176]
+                  - generic [ref=e177]: Verified
+                - paragraph [ref=e178]: Established the Maharlika Investment Fund, a sovereign wealth fund capitalized with PHP 125 billion, aimed at investing in infrastructure, technology, and economic development.
+                - generic [ref=e179]:
+                  - generic [ref=e180]: Jul 18, 2023
+                  - 'link "Source: Official Gazette" [ref=e181] [cursor=pointer]':
+                    - /url: https://www.officialgazette.gov.ph/2023/07/18/republic-act-no-11954/
+              - generic [ref=e183]:
+                - generic [ref=e184]:
+                  - heading "POGO Ban" [level=3] [ref=e185]
+                  - generic [ref=e186]: Verified
+                - paragraph [ref=e187]: Ordered the complete ban of Philippine Offshore Gaming Operations (POGOs) by end of 2024, addressing concerns about criminal activity, human trafficking, and social disruption linked to POGO operations.
+                - generic [ref=e188]:
+                  - generic [ref=e189]: Jul 22, 2024
+                  - 'link "Source: PhilStar" [ref=e190] [cursor=pointer]':
+                    - /url: https://www.philstar.com/headlines/2024/07/22/2371234/marcos-orders-total-pogo-ban
+    - contentinfo [ref=e96]:
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - generic [ref=e100]: WhoToVotePH
+            - paragraph [ref=e101]: Empowering Filipino voters with facts.
+          - generic [ref=e102]:
+            - heading "Navigation" [level=3] [ref=e103]
+            - navigation [ref=e104]:
+              - link "Officials" [ref=e105] [cursor=pointer]:
+                - /url: /en/officials
+              - link "Critical Thinking Guide" [ref=e106] [cursor=pointer]:
+                - /url: /en/guide
+              - link "About" [ref=e107] [cursor=pointer]:
+                - /url: /en/about
+          - generic [ref=e108]:
+            - heading "Fact-Checkers" [level=3] [ref=e109]
+            - navigation [ref=e110]:
+              - link "Vera Files" [ref=e111] [cursor=pointer]:
+                - /url: https://verafiles.org
+              - link "Rappler" [ref=e112] [cursor=pointer]:
+                - /url: https://www.rappler.com
+              - link "PCIJ" [ref=e113] [cursor=pointer]:
+                - /url: https://pcij.org
+              - link "Tsek.ph" [ref=e114] [cursor=pointer]:
+                - /url: https://tsek.ph
+        - generic [ref=e115]:
+          - paragraph [ref=e116]: WhoToVotePH is a non-partisan platform. We do not endorse any candidate or political party.
+          - paragraph [ref=e117]: © 2026 WhoToVotePH
+  - button "Open Next.js Dev Tools" [ref=e123] [cursor=pointer]:
+    - img [ref=e124]
+  - alert [ref=e127]

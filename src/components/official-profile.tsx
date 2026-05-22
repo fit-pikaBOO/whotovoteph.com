@@ -3,9 +3,10 @@
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import { Badge } from "./ui/badge";
-import { Button } from "./ui/button";
+import { buttonVariants } from "./ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 import { FactCard } from "./fact-card";
+import { cn } from "@/lib/utils";
 import { Official, Fact } from "@/types";
 
 const positionColors: Record<string, string> = {
@@ -35,9 +36,9 @@ export function OfficialProfile({
   return (
     <div className="container mx-auto max-w-4xl px-4 py-12">
       {/* Back link */}
-      <Button variant="ghost" size="sm" className="mb-6" render={<Link href={`/${locale}/officials`} />}>
+      <Link href={`/${locale}/officials`} className={cn(buttonVariants({ variant: "ghost", size: "sm" }), "mb-6")}>
         &larr; {t("title")}
-      </Button>
+      </Link>
 
       {/* Profile Header */}
       <div className="flex flex-col md:flex-row items-start gap-6 mb-10">

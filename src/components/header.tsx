@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
 import { useState } from "react";
 import { LanguageToggle } from "./language-toggle";
-import { Button } from "./ui/button";
+import { buttonVariants } from "./ui/button";
+import { cn } from "@/lib/utils";
 
 export function Header() {
   const t = useTranslations("nav");
@@ -47,12 +48,12 @@ export function Header() {
         <div className="flex items-center gap-3">
           <LanguageToggle />
           <div className="hidden md:flex items-center gap-2">
-            <Button variant="ghost" size="sm" render={<Link href={`/${locale}/auth/login`} />}>
+            <Link href={`/${locale}/auth/login`} className={cn(buttonVariants({ variant: "ghost", size: "sm" }))}>
               {t("login")}
-            </Button>
-            <Button size="sm" render={<Link href={`/${locale}/auth/register`} />}>
+            </Link>
+            <Link href={`/${locale}/auth/register`} className={cn(buttonVariants({ size: "sm" }))}>
               {t("register")}
-            </Button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -113,12 +114,12 @@ export function Header() {
               {t("about")}
             </Link>
             <div className="flex gap-2 pt-2 border-t">
-              <Button variant="ghost" size="sm" className="flex-1" render={<Link href={`/${locale}/auth/login`} />}>
+              <Link href={`/${locale}/auth/login`} className={cn(buttonVariants({ variant: "ghost", size: "sm" }), "flex-1")}>
                 {t("login")}
-              </Button>
-              <Button size="sm" className="flex-1" render={<Link href={`/${locale}/auth/register`} />}>
+              </Link>
+              <Link href={`/${locale}/auth/register`} className={cn(buttonVariants({ size: "sm" }), "flex-1")}>
                 {t("register")}
-              </Button>
+              </Link>
             </div>
           </nav>
         </div>
