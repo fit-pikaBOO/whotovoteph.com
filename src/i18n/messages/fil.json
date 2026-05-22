@@ -1,0 +1,108 @@
+{
+  "site": {
+    "name": "WhoToVotePH",
+    "tagline": "Mga katotohanan. Hindi opinyon. Boto mo, matalinong desisyon.",
+    "description": "Isang non-partisan na platform para sa edukasyon ng botante na tumutulong sa mga Pilipino na gumawa ng desisyon batay sa mga beripikadong katotohanan."
+  },
+  "nav": {
+    "home": "Home",
+    "officials": "Mga Opisyal",
+    "guide": "Gabay sa Critical Thinking",
+    "about": "Tungkol",
+    "login": "Mag-log In",
+    "register": "Mag-sign Up",
+    "logout": "Mag-log Out",
+    "bookmarks": "Mga Bookmark"
+  },
+  "home": {
+    "hero_title": "Alamin ang katotohanan bago bumoto",
+    "hero_subtitle": "Ipinapakita namin ang mga beripikadong tagumpay AT kontrobersya ng mga pambansang opisyal ng Pilipinas — para makapagdesisyon ka batay sa katotohanan, hindi sa hype.",
+    "explore_officials": "Tingnan ang mga Opisyal",
+    "how_it_works": "Paano Ito Gumagana",
+    "step1_title": "Basahin ang mga Katotohanan",
+    "step1_desc": "Bawat claim ay may pinagmulan mula sa mga beripikadong news outlet at opisyal na rekord.",
+    "step2_title": "Makita ang Dalawang Panig",
+    "step2_desc": "Ipinapakita namin ang mga tagumpay AT kontrobersya nang pantay — walang bias, walang paboritismo.",
+    "step3_title": "Ikaw ang Magdesisyon",
+    "step3_desc": "Gamitin ang aming gabay sa critical thinking para suriin ang impormasyon at gumawa ng sarili mong desisyon.",
+    "featured_officials": "Mga Pambansang Opisyal",
+    "newsletter_title": "Manatiling Informed",
+    "newsletter_desc": "Makatanggap ng fact-based na updates tungkol sa mga opisyal ng Pilipinas sa iyong inbox.",
+    "newsletter_placeholder": "Iyong email address",
+    "newsletter_submit": "Mag-subscribe",
+    "coming_soon": "Paparating Na"
+  },
+  "officials": {
+    "title": "Mga Pambansang Opisyal",
+    "subtitle": "Fact-based na profile ng mga kasalukuyang pambansang opisyal ng Pilipinas.",
+    "president": "Pangulo",
+    "vice_president": "Bise Pangulo",
+    "senator": "Senador",
+    "congressman": "Kongresman",
+    "view_profile": "Tingnan ang Profile",
+    "achievements": "Mga Tagumpay",
+    "controversies": "Mga Kontrobersya",
+    "legislation": "Mga Batas",
+    "promises": "Mga Pangako",
+    "statements": "Mga Pahayag",
+    "source": "Pinagmulan",
+    "verified": "Beripikado",
+    "no_facts": "Wala pang mga katotohanan para sa kategoryang ito."
+  },
+  "guide": {
+    "title": "Gabay sa Critical Thinking",
+    "subtitle": "Matuto kung paano suriin ang mga political claim at gumawa ng matalinong desisyon sa pagboto.",
+    "intro": "Bago maniwala o mag-share ng anumang political na impormasyon, itanong mo sa sarili mo ang mga ito:",
+    "q1_title": "Ano ang pinagmulan?",
+    "q1_desc": "Galing ba ito sa isang kilalang news organization, opisyal na government record, o beripikadong fact-checker? O galing ba ito sa anonymous na social media post?",
+    "q2_title": "May ebidensya ba?",
+    "q2_desc": "May link ba ang claim sa mga dokumento, data, o opisyal na rekord? Mabe-verify mo ba ito nang mag-isa?",
+    "q3_title": "Sino ang nakikinabang?",
+    "q3_desc": "Isipin kung sino ang makikinabang kung maniniwala ka sa impormasyong ito. May nagtratry bang i-manipulate ang opinyon mo?",
+    "q4_title": "Kumpleto ba ang larawan?",
+    "q4_desc": "Parehong mga tagumpay AT pagkabigo ba ang ipinapakita? Ang isang panig lang na impormasyon ay madalas propaganda.",
+    "q5_title": "Kasalukuyan pa ba ito?",
+    "q5_desc": "Bago at relevant pa ba ang impormasyong ito, o luma na at nire-recycle lang para makalinlang?",
+    "factcheck_title": "Mga Philippine Fact-Checking Resource",
+    "factcheck_desc": "Ang mga organisasyong ito ay propesyonal na nagbe-verify ng mga political claim:"
+  },
+  "about": {
+    "title": "Tungkol sa WhoToVotePH",
+    "mission_title": "Ang Aming Misyon",
+    "mission_desc": "Bigyang-kapangyarihan ang mga Pilipinong botante ng factual at balanseng impormasyon tungkol sa mga pambansang opisyal — ipinapakita ang mga tagumpay at kontrobersya — para makapagdesisyon sila nang malaya sa bias at maling impormasyon.",
+    "methodology_title": "Ang Aming Metodolohiya",
+    "methodology_desc": "Bawat katotohanan sa platform na ito ay may pinagmulan mula sa mga mabe-verify na rekord: mga news report mula sa mga kilalang outlet, opisyal na government document, legislative record, at mga propesyonal na fact-checking organization.",
+    "nonpartisan_title": "Non-Partisan na Pangako",
+    "nonpartisan_desc": "Hindi kami nag-eendorse, nagra-rank, o nagrerekomenda ng anumang kandidato o opisyal. Bawat profile ay tumatanggap ng pantay na pagtrato sa lalim at istruktura. Nagpapakita kami ng katotohanan — ikaw ang magdedesisyon.",
+    "sources_title": "Ang Aming mga Pinagmulan",
+    "sources_desc": "Umaasa kami sa mga Philippine fact-checking organization, opisyal na government record, at mga kilalang news outlet."
+  },
+  "auth": {
+    "login_title": "Mag-log In",
+    "register_title": "Gumawa ng Account",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Kumpirmahin ang Password",
+    "display_name": "Display Name",
+    "login_submit": "Mag-log In",
+    "register_submit": "Gumawa ng Account",
+    "no_account": "Wala ka pang account?",
+    "has_account": "May account ka na?"
+  },
+  "footer": {
+    "tagline": "Binibigyang-kapangyarihan ang mga Pilipinong botante ng katotohanan.",
+    "navigation": "Nabigasyon",
+    "resources": "Mga Resource",
+    "factcheckers": "Mga Fact-Checker",
+    "disclaimer": "Ang WhoToVotePH ay isang non-partisan na platform. Hindi kami nag-eendorse ng anumang kandidato o political party."
+  },
+  "common": {
+    "loading": "Naglo-load...",
+    "error": "May nangyaring mali",
+    "back": "Bumalik",
+    "read_more": "Magbasa Pa",
+    "share": "I-share",
+    "bookmark": "I-bookmark",
+    "bookmarked": "Na-bookmark"
+  }
+}

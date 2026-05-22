@@ -1,0 +1,108 @@
+{
+  "site": {
+    "name": "WhoToVotePH",
+    "tagline": "Facts. Not opinions. Your vote, your informed choice.",
+    "description": "A non-partisan voter education platform helping Filipinos make informed decisions based on verified facts."
+  },
+  "nav": {
+    "home": "Home",
+    "officials": "Officials",
+    "guide": "Critical Thinking Guide",
+    "about": "About",
+    "login": "Log In",
+    "register": "Sign Up",
+    "logout": "Log Out",
+    "bookmarks": "Bookmarks"
+  },
+  "home": {
+    "hero_title": "Know the facts before you vote",
+    "hero_subtitle": "We present verified achievements AND controversies of Philippine national officials — so you can decide based on facts, not hype.",
+    "explore_officials": "Explore Officials",
+    "how_it_works": "How It Works",
+    "step1_title": "Read the Facts",
+    "step1_desc": "Every claim is sourced from verified news outlets and official records.",
+    "step2_title": "See Both Sides",
+    "step2_desc": "We present achievements AND controversies equally — no bias, no favoritism.",
+    "step3_title": "Decide for Yourself",
+    "step3_desc": "Use our critical thinking guides to evaluate the information and make your own choice.",
+    "featured_officials": "National Officials",
+    "newsletter_title": "Stay Informed",
+    "newsletter_desc": "Get fact-based updates about Philippine officials delivered to your inbox.",
+    "newsletter_placeholder": "Your email address",
+    "newsletter_submit": "Subscribe",
+    "coming_soon": "Coming Soon"
+  },
+  "officials": {
+    "title": "National Officials",
+    "subtitle": "Fact-based profiles of current Philippine national-level officials.",
+    "president": "President",
+    "vice_president": "Vice President",
+    "senator": "Senator",
+    "congressman": "Congressman",
+    "view_profile": "View Profile",
+    "achievements": "Achievements",
+    "controversies": "Controversies",
+    "legislation": "Legislation",
+    "promises": "Promises",
+    "statements": "Statements",
+    "source": "Source",
+    "verified": "Verified",
+    "no_facts": "No facts available yet for this category."
+  },
+  "guide": {
+    "title": "Critical Thinking Guide",
+    "subtitle": "Learn how to evaluate political claims and make informed voting decisions.",
+    "intro": "Before believing or sharing any political information, ask yourself these questions:",
+    "q1_title": "What is the source?",
+    "q1_desc": "Is it from a reputable news organization, official government record, or verified fact-checker? Or is it from an anonymous social media post?",
+    "q2_title": "Is there evidence?",
+    "q2_desc": "Does the claim link to documents, data, or official records? Can you verify it independently?",
+    "q3_title": "Who benefits?",
+    "q3_desc": "Consider who gains from you believing this information. Is someone trying to manipulate your opinion?",
+    "q4_title": "Is it the full picture?",
+    "q4_desc": "Are both achievements AND failures being presented? One-sided information is often propaganda.",
+    "q5_title": "Is it current?",
+    "q5_desc": "Is this information recent and relevant, or is it outdated and being recycled to mislead?",
+    "factcheck_title": "Philippine Fact-Checking Resources",
+    "factcheck_desc": "These organizations verify political claims professionally:"
+  },
+  "about": {
+    "title": "About WhoToVotePH",
+    "mission_title": "Our Mission",
+    "mission_desc": "To empower Filipino voters with factual, balanced information about national officials — presenting both achievements and controversies — so they can make informed decisions free from bias and misinformation.",
+    "methodology_title": "Our Methodology",
+    "methodology_desc": "Every fact on this platform is sourced from verifiable records: news reports from reputable outlets, official government documents, legislative records, and professional fact-checking organizations.",
+    "nonpartisan_title": "Non-Partisan Commitment",
+    "nonpartisan_desc": "We do not endorse, rank, or recommend any candidate or official. Every profile receives equal treatment in depth and structure. We present facts — you decide.",
+    "sources_title": "Our Sources",
+    "sources_desc": "We rely on Philippine fact-checking organizations, official government records, and reputable news outlets."
+  },
+  "auth": {
+    "login_title": "Log In",
+    "register_title": "Create Account",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "display_name": "Display Name",
+    "login_submit": "Log In",
+    "register_submit": "Create Account",
+    "no_account": "Don't have an account?",
+    "has_account": "Already have an account?"
+  },
+  "footer": {
+    "tagline": "Empowering Filipino voters with facts.",
+    "navigation": "Navigation",
+    "resources": "Resources",
+    "factcheckers": "Fact-Checkers",
+    "disclaimer": "WhoToVotePH is a non-partisan platform. We do not endorse any candidate or political party."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "back": "Back",
+    "read_more": "Read More",
+    "share": "Share",
+    "bookmark": "Bookmark",
+    "bookmarked": "Bookmarked"
+  }
+}
