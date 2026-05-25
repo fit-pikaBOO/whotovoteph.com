@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg-camille-villar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1628"/>
+      <stop offset="100%" stop-color="#0F1F35"/>
+    </linearGradient>
+    <radialGradient id="glow-camille-villar" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1B7340" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#1B7340" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg-camille-villar)" rx="32"/>
+  <rect width="512" height="512" fill="url(#glow-camille-villar)" rx="32"/>
+  <polygon points="387.8,271.0 363.2,283.7 339.9,268.7 341.2,241.0 365.8,228.3 389.1,243.3" fill="#1B7340" opacity="0.16061274213963483"/>
+<polygon points="365.8,369.4 336.4,389.1 304.6,373.5 302.2,338.2 331.6,318.4 363.4,334.0" fill="#1B7340" opacity="0.29449240312550506"/>
+<polygon points="252.8,409.5 213.3,415.2 188.6,383.8 203.4,346.7 243.0,341.0 267.7,372.4" fill="#1B7340" opacity="0.29542164875786325"/>
+<polygon points="190.4,320.1 160.2,330.3 136.4,309.3 142.6,278.0 172.8,267.9 196.7,288.9" fill="#1B7340" opacity="0.26890892715167924"/>
+<polygon points="163.1,218.3 129.0,233.8 98.5,212.1 102.1,174.9 136.1,159.3 166.6,181.0" fill="#1B7340" opacity="0.15871207826042363"/>
+<polygon points="271.1,185.0 237.7,206.6 202.2,188.5 200.2,148.8 233.6,127.1 269.1,145.3" fill="#1B7340" opacity="0.3286465672726386"/>
+<polygon points="352.9,205.9 313.0,226.1 275.6,201.7 278.0,157.1 317.8,136.8 355.3,161.2" fill="#1B7340" opacity="0.18921594783645496"/>
+<polygon points="306.0,256.0 281.0,299.3 231.0,299.3 206.0,256.0 231.0,212.7 281.0,212.7" fill="#145A33" opacity="0.4"/>
+
+  <circle cx="256" cy="256" r="64" fill="#0A1628" stroke="#1B7340" stroke-width="2.5" opacity="0.95"/>
+  <text x="256" y="256" text-anchor="middle" dominant-baseline="central" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="#1B7340" letter-spacing="2">CV</text>
+</svg>

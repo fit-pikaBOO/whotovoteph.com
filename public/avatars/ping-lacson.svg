@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg-ping-lacson" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1628"/>
+      <stop offset="100%" stop-color="#0F1F35"/>
+    </linearGradient>
+    <radialGradient id="glow-ping-lacson" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1B7340" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#1B7340" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg-ping-lacson)" rx="32"/>
+  <rect width="512" height="512" fill="url(#glow-ping-lacson)" rx="32"/>
+  <circle cx="263.2" cy="272.0" r="180" fill="none" stroke="#1B7340" stroke-width="2" opacity="0.15"/>
+<circle cx="242.7" cy="244.7" r="150" fill="none" stroke="#1B7340" stroke-width="2" opacity="0.2"/>
+<circle cx="246.0" cy="239.3" r="120" fill="none" stroke="#1B7340" stroke-width="2" opacity="0.25"/>
+<circle cx="250.1" cy="268.0" r="90" fill="none" stroke="#1B7340" stroke-width="2" opacity="0.30000000000000004"/>
+<circle cx="236.9" cy="248.6" r="60" fill="none" stroke="#1B7340" stroke-width="2" opacity="0.35"/>
+<polygon points="286.65388533590067,114.68450158145103 264.35732098256955,153.30441674311 308.9504496892318,153.30441674311" fill="#2ECC71" opacity="0.3" transform="rotate(121 286.7 140.4)"/>
+<polygon points="244.2454125782267,324.0109933406799 208.69702426435015,385.58441420767156 279.79380089210326,385.58441420767156" fill="#2ECC71" opacity="0.3" transform="rotate(291 244.2 365.1)"/>
+<polygon points="260.4196568996109,319.5631044962794 221.71442274403861,386.6045031491183 299.12489105518324,386.6045031491183" fill="#2ECC71" opacity="0.3" transform="rotate(91 260.4 364.3)"/>
+
+  <circle cx="256" cy="256" r="64" fill="#0A1628" stroke="#1B7340" stroke-width="2.5" opacity="0.95"/>
+  <text x="256" y="256" text-anchor="middle" dominant-baseline="central" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="#1B7340" letter-spacing="2">PL</text>
+</svg>

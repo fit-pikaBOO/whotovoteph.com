@@ -34,24 +34,30 @@ export function NewsletterForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-      <Input
-        type="email"
-        placeholder={t("newsletter_placeholder")}
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        required
-        className="flex-1"
-      />
-      <Button type="submit" disabled={status === "loading"}>
-        {status === "loading" ? "..." : t("newsletter_submit")}
-      </Button>
+    <div>
+      <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
+        <Input
+          type="email"
+          placeholder={t("newsletter_placeholder")}
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          required
+          className="flex-1 h-12 bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-[#F5A623]/50 rounded-lg"
+        />
+        <Button
+          type="submit"
+          disabled={status === "loading"}
+          className="h-12 px-6 bg-[#F5A623] text-[#0A1628] font-bold rounded-lg hover:bg-[#F5A623]/90 transition-all hover:shadow-lg hover:shadow-[#F5A623]/20 btn-shimmer"
+        >
+          {status === "loading" ? "..." : t("newsletter_submit")}
+        </Button>
+      </form>
       {status === "success" && (
-        <p className="text-sm text-green-600 mt-2 sm:mt-0 sm:self-center">Subscribed!</p>
+        <p className="text-sm text-[#1B7340] mt-3 text-center font-medium">Subscribed!</p>
       )}
       {status === "error" && (
-        <p className="text-sm text-red-600 mt-2 sm:mt-0 sm:self-center">Failed. Try again.</p>
+        <p className="text-sm text-[#C23B22] mt-3 text-center font-medium">Failed. Try again.</p>
       )}
-    </form>
+    </div>
   );
 }

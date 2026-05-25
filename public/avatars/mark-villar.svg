@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg-mark-villar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1628"/>
+      <stop offset="100%" stop-color="#0F1F35"/>
+    </linearGradient>
+    <radialGradient id="glow-mark-villar" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1B7340" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#1B7340" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bg-mark-villar)" rx="32"/>
+
+  <!-- Ambient glow -->
+  <rect width="512" height="512" fill="url(#glow-mark-villar)" rx="32"/>
+
+  <!-- Geometric pattern -->
+  <polygon points="400.5,268.3 375.0,288.0 345.1,275.7 340.8,243.7 366.4,224.0 396.2,236.3" fill="#1B7340" opacity="0.29445336073275036"/>
+<polygon points="354.9,371.7 311.6,383.5 279.8,351.8 291.3,308.5 334.6,296.8 366.4,328.4" fill="#1B7340" opacity="0.25439982663476834"/>
+<polygon points="260.2,361.2 233.9,374.3 209.4,358.0 211.2,328.6 237.6,315.6 262.0,331.8" fill="#1B7340" opacity="0.1954387418100235"/>
+<polygon points="198.1,305.3 176.3,338.6 136.5,336.3 118.6,300.7 140.4,267.4 180.2,269.7" fill="#1B7340" opacity="0.17507195976215228"/>
+<polygon points="168.1,207.2 150.2,226.4 124.7,220.6 116.9,195.5 134.8,176.3 160.3,182.1" fill="#1B7340" opacity="0.18317957078879224"/>
+<polygon points="256.5,143.2 226.3,160.7 196.1,143.3 196.1,108.4 226.2,91.0 256.4,108.3" fill="#1B7340" opacity="0.3491063373626923"/>
+<polygon points="361.6,170.8 340.4,197.4 306.8,192.4 294.3,160.8 315.4,134.2 349.1,139.2" fill="#1B7340" opacity="0.2993762089287341"/>
+<polygon points="306.0,256.0 281.0,299.3 231.0,299.3 206.0,256.0 231.0,212.7 281.0,212.7" fill="#145A33" opacity="0.4"/>
+
+
+  <!-- Initials circle -->
+  <circle cx="256" cy="256" r="64" fill="#0A1628" stroke="#1B7340" stroke-width="2.5" opacity="0.95"/>
+  <text x="256" y="256" text-anchor="middle" dominant-baseline="central" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="#1B7340" letter-spacing="2">MV</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg-imee-marcos" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1628"/>
+      <stop offset="100%" stop-color="#0F1F35"/>
+    </linearGradient>
+    <radialGradient id="glow-imee-marcos" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1B7340" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#1B7340" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bg-imee-marcos)" rx="32"/>
+
+  <!-- Ambient glow -->
+  <rect width="512" height="512" fill="url(#glow-imee-marcos)" rx="32"/>
+
+  <!-- Geometric pattern -->
+  <rect x="243.6" y="255.2" width="86.5" height="86.5" fill="#1B7340" opacity="0.26807928157925587" transform="rotate(79 286.8 298.5)"/>
+<rect x="171.4" y="167.2" width="79.7" height="79.7" fill="#1B7340" opacity="0.1403363199882061" transform="rotate(87 211.3 207.1)"/>
+<rect x="203.3" y="260.7" width="62.6" height="62.6" fill="#1B7340" opacity="0.17789529307696392" transform="rotate(80 234.6 292.0)"/>
+<rect x="198.7" y="220.2" width="73.8" height="73.8" fill="#1B7340" opacity="0.2577172227221814" transform="rotate(75 235.6 257.1)"/>
+<rect x="237.0" y="265.5" width="51.9" height="51.9" fill="#1B7340" opacity="0.2205652715336916" transform="rotate(4 263.0 291.4)"/>
+<line x1="156" y1="256" x2="356" y2="256" stroke="#2ECC71" stroke-width="1.5" opacity="0.4"/>
+<line x1="256" y1="156" x2="256" y2="356" stroke="#2ECC71" stroke-width="1.5" opacity="0.4"/>
+
+
+  <!-- Initials circle -->
+  <circle cx="256" cy="256" r="64" fill="#0A1628" stroke="#1B7340" stroke-width="2.5" opacity="0.95"/>
+  <text x="256" y="256" text-anchor="middle" dominant-baseline="central" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="#1B7340" letter-spacing="2">IM</text>
+</svg>

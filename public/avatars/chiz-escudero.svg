@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg-chiz-escudero" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1628"/>
+      <stop offset="100%" stop-color="#0F1F35"/>
+    </linearGradient>
+    <radialGradient id="glow-chiz-escudero" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1B7340" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#1B7340" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bg-chiz-escudero)" rx="32"/>
+
+  <!-- Ambient glow -->
+  <rect width="512" height="512" fill="url(#glow-chiz-escudero)" rx="32"/>
+
+  <!-- Geometric pattern -->
+  <ellipse cx="256" cy="256" rx="76.4" ry="55.0" fill="none" stroke="#1B7340" stroke-width="1.5" opacity="0.2" transform="rotate(53 256 256)"/>
+<ellipse cx="256" cy="256" rx="93.0" ry="65.2" fill="none" stroke="#1B7340" stroke-width="1.5" opacity="0.28" transform="rotate(66 256 256)"/>
+<ellipse cx="256" cy="256" rx="125.9" ry="100.9" fill="none" stroke="#1B7340" stroke-width="1.5" opacity="0.36" transform="rotate(103 256 256)"/>
+<ellipse cx="256" cy="256" rx="155.9" ry="122.5" fill="none" stroke="#1B7340" stroke-width="1.5" opacity="0.44" transform="rotate(164 256 256)"/>
+<circle cx="261.6" cy="186.3" r="5.3" fill="#2ECC71" opacity="0.5"/>
+<circle cx="298.1" cy="305.8" r="5.3" fill="#1B7340" opacity="0.5"/>
+<circle cx="261.9" cy="392.6" r="6.1" fill="#1B7340" opacity="0.5"/>
+<circle cx="222.8" cy="194.4" r="3.5" fill="#2ECC71" opacity="0.5"/>
+<circle cx="176.0" cy="252.2" r="4.2" fill="#1B7340" opacity="0.5"/>
+<circle cx="144.6" cy="167.8" r="4.7" fill="#1B7340" opacity="0.5"/>
+<circle cx="395.6" cy="317.7" r="3.1" fill="#2ECC71" opacity="0.5"/>
+<circle cx="159.2" cy="262.3" r="4.5" fill="#1B7340" opacity="0.5"/>
+
+
+  <!-- Initials circle -->
+  <circle cx="256" cy="256" r="64" fill="#0A1628" stroke="#1B7340" stroke-width="2.5" opacity="0.95"/>
+  <text x="256" y="256" text-anchor="middle" dominant-baseline="central" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="#1B7340" letter-spacing="2">CE</text>
+</svg>
